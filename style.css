@@ -1,0 +1,79 @@
+* {
+    font-family: Roboto;
+}
+body {
+    background: url(img/background.jpg); 
+    background-size: 100% 120%  ;
+    background-repeat: no-repeat;
+    padding: 5% 20% 15% 20%;
+}
+  
+
+#blackbox{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding-bottom: 10%;
+}
+
+header {
+    text-align: center;
+    color: rgb(46, 203, 46);
+    font-family: Roboto;
+}
+
+header > img {
+    width: 25%;
+    height: 20%;
+    margin-top: 5%;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(46, 203, 46);
+    margin: 0% 10% 0% 10%;
+    padding: 2px 0px 2px 0px;
+}
+
+.sceltamono {
+    display: inline-block;
+}
+
+.sceltamono h2{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 0%;
+}
+
+.monopattino{
+    padding-left: 10%;
+}
+
+.monopattino p {
+    margin: 0;
+    color: white;    
+}
+
+#carica1 {
+   background-color: orange;
+   height: 20px;
+   width: 30%;
+   border-radius: 5px; 
+}
+
+#carica2 {
+    background-color: rgb(13, 220, 34);
+    height: 20px;
+    width: 50%;
+    border-radius: 5px; 
+ }
+
+ #carica3 {
+    background-color: rgb(232, 11, 11);
+    height: 20px;
+    width: 15%;
+    border-radius: 5px; 
+ }
